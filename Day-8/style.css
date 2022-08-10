@@ -1,0 +1,60 @@
+h1 {
+    margin: 20px;
+}
+
+.create-to-do {
+    margin: 20px;
+}
+
+.create-to-do input {
+    width: 60%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.create-to-do button {
+    width: 10%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.to-do-container {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    margin: 20px;
+}
+
+.to-do-container > div {
+    width: 50%;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.to-do-container h2 {
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.to-do {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.to-do input {
+    width: 20px;
+    height: 20px;
+}
+
+.to-do-text {
+    font-size: 18px;
+}
+
+.done-to-do .to-do-text {
+    text-decoration: line-through;
+}
